@@ -25,5 +25,6 @@ public class serverDue{
         }while(strIn.equals((String)"Ciao!") == false);
         
         os.write("Grazie per aver giocato con me!".getBytes());
+    ss.close();
     }
 }
