@@ -12,5 +12,6 @@ public class serverUno {
         OutputStream os = socket.getOutputStream();
 
         os.write("ServerSocket ti sta ascoltando...".getBytes());
+        ss.close();
     }    
 }
